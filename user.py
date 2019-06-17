@@ -29,7 +29,7 @@ class User :
             User info for that account
         '''
         for info in dts.user_list:
-            if info.account == aount:
+            if info.account == account:
                 return info
 
     @classmethod
