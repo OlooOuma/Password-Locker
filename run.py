@@ -81,11 +81,11 @@ def main():
                 print("Wrong username or password!")
 
             while access_pass == login_pass:
-                    print("Use: cc - create  new account credentials, dc - display account credentials, fc -find an account's credentials, ex -exit Password Locker, del - delete account credentials ")
+                    print("Use: new - create  new account credentials, view - display account credentials, search -find an account's credentials, exit -exit Password Locker, del - delete account credentials ")
 
                     short_code = input().lower()
 
-                    if short_code == 'cc':
+                    if short_code == 'new':
                         print("New Account")
                         print("*"*50)
 
