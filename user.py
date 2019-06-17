@@ -20,7 +20,7 @@ class User :
         '''
         User.user_list.remove(self)
     @classmethod
-    def find_by_account(dts,account):
+    def find_by_account(dt,account):
         '''
         Method takes in account name and displays user info for that particular account
         Args:
@@ -28,7 +28,7 @@ class User :
         Returns:
             User info for that account
         '''
-        for info in dts.user_list:
+        for info in dt.user_list:
             if info.account == account:
                 return info
 
