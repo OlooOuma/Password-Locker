@@ -9,7 +9,7 @@ class User :
         self.account = account
         self.password = password
 
-    def save_user(self):
+    def save_use(self):
         '''
         save_user method saves user names into the user list
         '''
