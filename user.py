@@ -7,7 +7,7 @@ class User :
     def __init__(self, username, account,password):
         self.username = username
         self.account = account
-        self.password = passwor
+        self.password = password
 
     def save_user(self):
         '''
