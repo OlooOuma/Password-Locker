@@ -18,7 +18,6 @@ def create_password(account, password):
     new_pass = Credentials(account, password)
     return new_pass
 
-
 def save_user(user):
     '''
     Function to save users
@@ -131,7 +130,7 @@ def main():
                             del_user(search_account)
                             print(f"{search_account.account} account credentials have been successfully deleted")
 
-                    elif short_code == 'dc':
+                    elif short_code == 'view':
 
                             if display_users():
                                     print("Here is a list of all your account credentials")
@@ -148,7 +147,7 @@ def main():
                                     print("Please create an account first.")
                                     print('\n')
 
-                    elif short_code == 'fc':
+                    elif short_code == 'search':
 
                             print("Enter the account you want to search for")
 
@@ -167,7 +166,7 @@ def main():
                             else:
                                     print("Account does not exist")
 
-                    elif short_code == "ex":
+                    elif short_code == "exit":
                             print("Thanks for Using Password Locker")
                             break
                     else:
